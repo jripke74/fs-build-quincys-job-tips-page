@@ -87,3 +87,33 @@ Inside the second section element, nest an h2 element with the text Importance o
 
 Below this heading, add a block quotation element with a cite attribute with the value https://www.freecodecamp.org/news/learn-to-code-book/.
 
+Step 12
+You can write quoted text directly within the block quotation element, like you did in the first section element. Alternatively, you can wrap it within one or more paragraph elements. This is helpful when the text has multiple paragraphs, but you want to keep them within the same block quotation element.
+
+Here's an example with two paragraphs:
+
+Example Code
+<blockquote cite="https://www.freecodecamp.org/news/is-college-worth-it/">
+  <p>So many people ask me each week: is college still worth it? In this 1-hour video I answer this question and other commonly asked questions about university.</p>
+  <p>I've been in adult education for two decades at this point, and even though I'm not a labor market economist, I do feel confident enough to answer these questions.</p>
+</blockquote>
+In the second section, inside the existing block quotation element, add four p elements with the following texts, in order:
+
+So much of getting a job is who you know.
+It's OK to be an introvert, but you do need to push your boundaries.
+Create GitHub, Twitter, LinkedIn, and Discord accounts.
+Go to tech meetups and conferences. Travel if you have to.
+
+Step 13
+In the third and last section element, you are going to create the same HTML structure as you did in the preceding section.
+
+First, inside the last section, add an h2 element with the text Importance of Building a Reputation.
+
+Then, below the h2 element, add a block quotation element with a cite attribute set to https://www.freecodecamp.org/news/learn-to-code-book/.
+
+Lastly, nest three paragraph elements inside the block quotation element with the following texts, in order:
+
+Share short video demos of your projects.
+Keep applying to speak at bigger and bigger conferences.
+Hang out at hackerspaces and help people who are even newer to coding than you.
+Congratulations! With this you have finished this workshop.
